@@ -1,0 +1,20 @@
+{
+  "name": "Tuitea desde un popup",
+  "version": "1.0",
+
+  "manifest_version": 2,
+  "browser_action" : {
+     "DEFAULT_TITLE" : "Marcar esta página" ,
+     "default_popup": "popup.html" 
+    },
+
+  "permissions": [
+    "http://api.pushingbox.com/*",
+    "unlimitedStorage"
+  ],
+
+  "web_accessible_resources": [
+    "49.png"
+  ]
+
+}
